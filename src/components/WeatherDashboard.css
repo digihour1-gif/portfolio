@@ -1,0 +1,35 @@
+.weather-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-dashboard h1 {
+    color: #333;
+}
+
+.weather-dashboard .temperature {
+    font-size: 2em;
+    color: #ff4500;
+}
+
+.weather-dashboard .weather-description {
+    font-style: italic;
+    color: #555;
+}
+
+.weather-dashboard .forecast {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.weather-dashboard .forecast-item {
+    flex: 1;
+    text-align: center;
+}
